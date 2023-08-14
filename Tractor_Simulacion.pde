@@ -91,7 +91,7 @@ class Cosechadora {
   boolean isFull = false;
   boolean isStopped = false;
   long stopTime; // Variable para rastrear el tiempo de parada
-  final int waitTime = 15000; // 2 segundos en milisegundos
+  final int waitTime = 15000; // 15 segundos en milisegundos
   
   Cosechadora(int id, color fillColor) {
     this.fillColor = fillColor;
