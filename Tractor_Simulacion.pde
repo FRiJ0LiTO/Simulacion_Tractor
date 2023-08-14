@@ -62,8 +62,8 @@ void draw() {
   }
   
   if (allHarvested) { // Si todas las celdas están cosechadas
-    cosechadoras[0].x = 0; // Volver al inicio
-    cosechadoras[0].y = 0;
+    cosechadoras[0].x = 10; 
+    cosechadoras[0].y = 710;
     cosechadoras[0].isStopped = true; // Detener definitivamente
   }
   
